@@ -208,6 +208,10 @@ section{
     .navbar {
         display: none;
     }
+    
+    nav ul i{
+        padding:0.3rem;
+    }
 }
 
 @media only screen and (max-width: 500px) {

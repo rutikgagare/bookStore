@@ -112,7 +112,7 @@ section{
 .serv{
     display: flex;
     justify-content: center;
-    padding: 4rem 1rem;
+    padding: 1rem;
 }
 
 .serv i{

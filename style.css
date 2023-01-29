@@ -199,10 +199,10 @@ section{
 
 .navbottom{
     width: 100%;
-    position: sticky;
-    bottom: 0rem;
-    left: 0rem;
-    display: none;
+    position: fixed;
+    bottom: 0;
+    display:none;
+    overflow: hidden;
     background-color:rgb(50, 9, 171);
     color: white;
 }

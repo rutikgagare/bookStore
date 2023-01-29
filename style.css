@@ -7,6 +7,9 @@
     font-family: 'Nunito', sans-serif;
 }
 
+.main{
+    width: 98.8vw;
+}
 
 nav{
     padding: 0rem 1rem;
@@ -77,7 +80,7 @@ section{
 
 .about .right img{
     width: 35vw;
-    position: fixed;
+    position: sticky;
     bottom: 1rem;
 }
 
@@ -102,13 +105,13 @@ section{
 
 .services{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
 }
 
 .serv{
     display: flex;
-    align-items: center;
-    padding: 4rem 2rem;
+    justify-content: center;
+    padding: 4rem 1rem;
 }
 
 .serv i{
@@ -178,7 +181,7 @@ section{
 
 .subscribe .right h1{
     font-weight: 400;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin: 1rem 0;
 }
 
@@ -190,5 +193,16 @@ section{
     border: none;
     outline: none;
 }
+
+@media only screen and (max-width: 1000px) {
+    .about .right{
+        display: none;
+        background-color: red;
+    }
+
+    .about .left{
+        width: 100%;
+    }
+  }
 
 

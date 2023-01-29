@@ -202,7 +202,7 @@ section{
     bottom: 0;
     display: none;
     background-color:rgb(50, 9, 171);
-    color: black;
+    color: white;
 }
 
 .navbottom ul{
@@ -239,7 +239,7 @@ section{
     }
 
     .navbottom{
-        display: inline;
+        display:block;
     }
 }
 

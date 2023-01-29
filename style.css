@@ -198,7 +198,7 @@ section{
 }
 
 .navbottom{
-    position: sticky;
+    position: absolute;
     bottom: 0;
     display: none;
     background-color:rgb(50, 9, 171);

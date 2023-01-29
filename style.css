@@ -9,7 +9,6 @@
 
 .main{
     width: 98.8vw;
-    border: 2px solid red;
 }
 
 nav{
@@ -206,7 +205,7 @@ section{
         width: 100%;
     }
 
-    nav{
+    .navbar {
         display: none;
     }
 }

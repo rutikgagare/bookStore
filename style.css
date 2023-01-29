@@ -208,6 +208,7 @@ section{
 .navbottom ul{
     list-style-type: none;
     display: flex;
+    justify-content: center;
 }
 
 .navbottom ul i{

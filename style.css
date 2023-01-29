@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav{
+    padding: 0 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(50, 9, 171);
+    color: white;
+    position: sticky;
+    top: 0;
+    height: 3.5rem;
+    z-index: 10;
+}
+
+button{
+    padding: 0.7rem 1.8rem;
+    margin-top: 0.8rem;
+    border: none;
+    outline: none;
+    background-color:rgb(50, 9, 171);
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    font-weight: 600;
+}
+
+/* navbar */
+
+nav div{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+nav ul li{
+    padding: 0 1rem;
+}
+
+nav ul i{
+    padding: 0 0.5rem;
+}
+
+section{
+    padding: 1rem 8vw;
+}
+
+.about{
+    display: flex;
+    background-image:url('./images/banner-bg.jpg');
+    align-items: center;
+}
+
+.about .right{
+    /* border: 2px solid red; */
+    flex: 1;
+    padding: 4rem 0;
+}
+
+.about .right div{
+    display: flex;
+}
+
+.about .right img{
+    width: 35vw;
+    position: relative;
+    bottom: 1rem;
+}
+
+.about .right div img{
+    height: 15rem;
+    width: 12rem;
+}
+
+.about .left{
+    /* border: 2px solid blue; */
+    flex: 1;
+    padding: 6rem 0;
+}
+
+.about .left h1{
+   font-size: 2.2rem;
+   margin-bottom: 0.5rem;
+}
+
+.about .left p{
+    font-size: 1.2rem;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+
+.serv{
+    display: flex;
+    align-items: center;
+    padding: 4rem 2rem;
+}
+
+.serv i{
+    font-size: 1.4rem;
+    padding: 1rem;
+    color:rgb(50, 9, 171);
+}
+
+.featuredbooks{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featuredbooks h1{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.featured{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured .book{
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.featured .book span{
+    text-decoration: line-through;
+}
+
+.featured .book img{
+    height: 18rem;
+    width: 15rem;
+}
+
+.subscribe{
+    margin: 3rem 0;
+    height: 30rem;
+    background-image: url('./images/letter-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe .left{
+    flex: 1;
+}
+
+.subscribe .right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.subscribe .right h1{
+    font-weight: 400;
+    font-size: 1.7rem;
+    margin: 1rem 0;
+}
+
+.subscribe .right input{
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    width: 18rem;
+    color: balck;
+    border: none;
+    outline: none;
+}
+
+

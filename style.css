@@ -197,6 +197,23 @@ section{
     outline: none;
 }
 
+.navbottom{
+    position: sticky;
+    bottom: 0;
+    display: none;
+    background-color:rgb(50, 9, 171);
+    color: white;
+}
+
+.navbottom ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navbottom ul i{
+    padding: 1rem;
+}
+
 @media only screen and (max-width: 1000px) {
     .about .right{
         display: none;
@@ -218,6 +235,10 @@ section{
     .featured .book img{
         height: 16rem;
         width: 15rem;
+    }
+
+    .navbottom{
+        display: inline;
     }
 }
 

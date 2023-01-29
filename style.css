@@ -212,9 +212,18 @@ section{
     nav ul i{
         padding:0.3rem;
     }
+
+    .featured .book img{
+        height: 16rem;
+        width: 14rem;
+    }
 }
 
 @media only screen and (max-width: 500px) {
-
+    .featured .book img{
+        height: 15rem;
+        width: 12rem;
+    }
+}
 
 

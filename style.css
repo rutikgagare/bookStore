@@ -111,7 +111,6 @@ section{
 
 .serv{
     display: flex;
-    justify-content: center;
     padding: 1rem;
 }
 
@@ -204,6 +203,9 @@ section{
     .about .left{
         width: 100%;
     }
-  }
+}
+
+@media only screen and (max-width: 500px) {
+
 
 

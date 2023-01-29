@@ -3,11 +3,13 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
 
+
 nav{
-    padding: 0 8vw;
+    padding: 0rem 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,7 +67,6 @@ section{
 }
 
 .about .right{
-    /* border: 2px solid red; */
     flex: 1;
     padding: 4rem 0;
 }
@@ -76,7 +77,7 @@ section{
 
 .about .right img{
     width: 35vw;
-    position: relative;
+    position: fixed;
     bottom: 1rem;
 }
 
@@ -86,7 +87,6 @@ section{
 }
 
 .about .left{
-    /* border: 2px solid blue; */
     flex: 1;
     padding: 6rem 0;
 }
@@ -120,9 +120,6 @@ section{
 .featuredbooks{
     width: 100%;
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .featuredbooks h1{
@@ -133,12 +130,13 @@ section{
 
 .featured{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .featured .book{
     padding: 1rem;
-    margin: 1rem;
+    margin: 1rem 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;

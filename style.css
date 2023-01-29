@@ -7,6 +7,10 @@
     font-family: 'Nunito', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 .main{
     width: 98.8vw;
 }

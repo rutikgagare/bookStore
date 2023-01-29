@@ -9,6 +9,7 @@
 
 .main{
     width: 98.8vw;
+    border: 2px solid red;
 }
 
 nav{
@@ -203,6 +204,10 @@ section{
 
     .about .left{
         width: 100%;
+    }
+
+    nav{
+        display: none;
     }
 }
 

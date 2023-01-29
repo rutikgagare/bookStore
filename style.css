@@ -226,6 +226,10 @@ section{
         height: 15rem;
         width: 13rem;
     }
+
+    .services{
+        justify-content: left;
+    }
 }
 
 
